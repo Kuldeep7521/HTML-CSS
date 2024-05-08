@@ -1,0 +1,75 @@
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-family: "BlinkMacSystemFont", "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji";
+}
+.nav_list_main {
+  display: flex;
+  padding-top: 10px;
+}
+.nav_list {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  align-items: center;
+  color: rgb(155, 155, 155);
+  
+}
+.logo {
+  padding: 20px;
+  width: 120px;
+}
+.nav_btn {
+  height: 40%;
+  padding: 10px;
+}
+.btn {
+  padding: 18px;
+  border-radius: 10px;
+  border: none;
+  background-color: #5955b3;
+  color: white;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+}
+.banner_content {
+  padding: 20px;
+  padding-left: 70px;
+}
+.banner_content h1 {
+  font-size: 80px;
+  color: #3c2f60;
+  font-weight: 600;
+}
+.banner_content span {
+  color: #5955b3;
+}
+
+.banner_content p {
+  font-size: 20px;
+  width: 70%;
+  color: rgb(155, 155, 155);
+}
+.banner_content button {
+  padding: 20px;
+  background-color: #5955b3;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 30%;
+}
+.banner_img {
+  width: 100vh;
+}
